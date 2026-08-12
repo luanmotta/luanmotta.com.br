@@ -8,7 +8,7 @@ custom por repo, então cada domínio tem o seu repo.
   **A fonte da verdade é `claude-life/rotary/site/index.html`**; aqui é cópia publicada por
   `claude-life/rotary/deploy.sh`. Não editar aqui.
 - `/` — página curta em PT: Luan como Diretor de Intercâmbios do Rotary Club de Gravataí-Prado,
-  com um card que leva ao Jovem Destaque. Conteúdo derivado de `luanmotta.github.io/docs/profile.md`,
+  com link para o Jovem Destaque. Conteúdo derivado de `luanmotta.github.io/docs/profile.md`,
   em português e deliberadamente enxuto — este domínio é o rosto do Rotary, não o portfólio.
   Editar aqui mesmo (só a página do intercâmbio vem de fora).
 - `CNAME` — o domínio custom. Não apagar; o Pages depende dele.
