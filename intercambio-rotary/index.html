@@ -1,6 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<!-- sem esta linha o Safari do iPhone renderiza a 980px e abre tudo minusculo -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jovem Destaque 2026/27 — Um ano letivo no exterior</title>
+<meta name="description" content="Bolsa integral do Rotary para um jovem do Distrito 4670 estudar um ano letivo no exterior a partir de janeiro de 2027. Inscrições até 30 de agosto de 2026.">
+<link rel="canonical" href="https://luanmotta.com.br/intercambio-rotary/">
 
 <style>
+  html,body{margin:0}
   :root{
     --ink:#0b1f3a;
     --ink-soft:#3d5170;
@@ -148,6 +157,16 @@
     border-radius:50%; transform:translateY(-2px);
   }
 
+  /* ---------- como funciona ---------- */
+  ul.how{list-style:none; margin:0; padding:0; display:grid; gap:18px}
+  ul.how li{position:relative; padding-left:22px}
+  ul.how li::before{
+    content:""; position:absolute; left:0; top:9px;
+    width:8px; height:8px; background:var(--azure); border-radius:50%;
+  }
+  ul.how .t{font-size:1.02rem; font-weight:650}
+  ul.how .d{display:block; font-size:.9rem; font-weight:400; color:var(--ink-soft); margin-top:2px}
+
   /* ---------- fechamento ---------- */
   .cta{
     margin-top:52px; padding:30px 26px;
@@ -176,6 +195,8 @@
     *{transition:none !important; animation:none !important}
   }
 </style>
+</head>
+<body>
 
 <div class="sheet">
 
@@ -188,12 +209,44 @@
   <div class="hero">
     <div class="stamp"><b>100%</b><span>BOLSA INTEGRAL</span></div>
     <h1>Um ano letivo<br>fora do Brasil.<em>Pago pelo Rotary.</em></h1>
-    <p class="lede">O Programa Jovem Destaque manda <strong>um</strong> jovem do Distrito 4670 para morar com famílias anfitriãs, estudar e representar o Brasil em outro país por um ano letivo, a partir de janeiro de 2027. A bolsa é integral e custeada pelo Rotary — <strong>sem taxa de inscrição e sem as taxas do programa</strong>.</p>
+    <p class="lede">O Programa Jovem Destaque escolhe <strong>um</strong> jovem do Distrito 4670 para estudar um ano letivo em outro país, a partir de janeiro de 2027. A bolsa é integral e custeada pelo Rotary — <strong>sem taxa de inscrição e sem as taxas do programa</strong>.</p>
   </div>
 
   <section>
+    <h2>Como funciona</h2>
+    <p class="sub">O intercâmbio acontece entre dois clubes do Rotary que se conhecem — e a família continua junto do começo ao fim.</p>
+
+    <ul class="how">
+      <li>
+        <span class="t">Quem recebe o jovem lá fora é o Rotary de lá
+          <span class="d">A família anfitriã e a escola são indicadas pelo clube Rotary do país anfitrião. Não é uma casa qualquer, e não é o jovem sozinho procurando onde ficar.</span>
+        </span>
+      </li>
+      <li>
+        <span class="t">A família de casa acompanha o processo inteiro
+          <span class="d">Antes, durante e depois. Os pais participam das reuniões de orientação no clube e seguem em contato com o jovem durante o ano.</span>
+        </span>
+      </li>
+      <li>
+        <span class="t">A viagem só acontece com autorização da Justiça
+          <span class="d">O alvará de viagem ao exterior é emitido pelo Juizado da Infância e da Juventude, junto com os exames médicos exigidos.</span>
+        </span>
+      </li>
+      <li>
+        <span class="t">Tem gente responsável dos dois lados
+          <span class="d">O clube de Gravataí-Prado e a Comissão de Intercâmbio do Distrito 4670 dão assistência ao jovem durante o ano lá fora, inclusive em emergências, e na volta para casa.</span>
+        </span>
+      </li>
+      <li>
+        <span class="t">É uma troca, não uma ida só
+          <span class="d">Na mesma temporada, o clube daqui recebe um jovem estrangeiro em famílias da nossa cidade. Os dois lados fazem o mesmo trabalho.</span>
+        </span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
     <h2>Você pode ser candidato?</h2>
-    <p class="sub">Estes seis requisitos não têm exceção. Se todos valem para você, o programa é para você.</p>
 
     <ul class="check">
       <li>
@@ -249,4 +302,6 @@
   </footer>
 
 </div>
+</body>
+</html>
 
